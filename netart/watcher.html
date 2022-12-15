@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> watcher </title>
+    <style>
+      body
+      {
+        background-color: black;
+        background-size: cover;
+      }
+
+      .center
+      {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 30%;
+      }
+
+      .fade-in-text
+      {
+        color: white;
+        text-align: center;
+        font-family: "Courier New";
+        font-size: 20px;
+        animation: fadeIn 5s;
+        animation-duration: 3s;
+      }
+
+
+
+      .fadeIn2
+      {
+        color: white;
+        text-align: center;
+        font-family: "Courier New";
+        font-size: 20px;
+        animation: fadeIn 5s;
+        animation-duration: 7s;
+      }
+
+      @keyframes fadeIn
+      {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      .button_container
+      {
+        position: relative;
+        height: -200px;
+      }
+      .button
+      {
+        top: 50%;
+        left: 50%
+        background-color: #36454F;
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .button:hover { opacity: 1 }
+
+
+    </style>
+  </head>
+
+  <body>
+    <img src="images\eye.gif" class = "center">
+  </body>
+
+  <div class="fade-in-text">
+    <p>You return yet again</p>
+    <p>Why are you here, Orpheus?</p>
+  </div>
+
+  <div class="fadeIn2">
+    <br>
+    <p>No matter,</p>
+    <p>You will learn that love and loss are one and the same</p>
+    <br>
+    <br>
+    <p>Do you wish to continue?</p>
+      <a href=" index.html">
+    <button class ="button">PROCEED</button>
+      <a href=" doNot.html">
+    <button class ="button">DO NOT</button>
+  </div>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>continue</title>
+    <style>
+
+    body
+    {
+      background-color: black;
+    }
+    .wrapper
+    {
+      height: 30vh;
+      display: grid;
+      place-items: center;
+    }
+
+    .typing-demo
+    {
+      color: #c0b391;
+      text-align: center;
+      font-family: "Courier New";
+      font-size: 20px;
+      animation: fadeIn 5s;
+      animation-duration: 5s;
+      width: 86ch;
+      animation: typing 2s steps(86), blink .5s step-end infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "Courier new";
+      font-size: 20px;
+      color: blue;
+
+    }
+
+    .typing2
+    {
+      color: #c0b391;
+      text-align: center;
+      font-family: "Courier New";
+      font-size: 20px;
+      animation: fadeIn 15s;
+      animation-duration: 15s;
+      width: 86ch;
+        animation-delay: 100s;
+      animation: typing2 30s steps(86), blink .5s step-end infinite alternate;
+      white-space: nowrap;
+
+      overflow: hidden;
+      font-family: "Courier new";
+      font-size: 20px;
+      color: #FFC0CB;
+
+    }
+    @keyframes typing
+    {
+      from
+      {
+        width: 0
+      }
+    }
+
+    @keyframes typing2
+    {
+      from
+      {
+        width: 0
+      }
+    }
+    .buttons
+    {
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+
+    .button
+    {
+      padding: 14px 28px;
+      font-size: 16px;
+      font-family: "Courier new";
+      cursor: pointer;
+      display: inline-block;
+    }
+    .center
+    {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 10%;
+    }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="typing-demo">
+        "Eurydice?"
+      </div>
+      <div class="typing2">
+        . . .
+      </div>
+    </div>
+    <img src="images\sun.png" class ="center">
+
+
+    <div class="buttons">
+
+    <a href=" continue5.html">
+      <button class = button>Continue</button>
+
+      <a href=" continue2.html">
+
+  <button class = button>Turn around</button>
+    </div>
+
+  </body>
+</html>
